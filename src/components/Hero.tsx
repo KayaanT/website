@@ -58,12 +58,20 @@ export default function Hero() {
               view_work.sh ↓
             </a>
             <a
+              href="https://drive.google.com/file/d/1b5Sw7BOtYcvLwrUUAD-60tTUQLa0nMag/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-2.5 border border-[#1e1e1e] text-xs text-[#666] hover:border-[#00ff9d] hover:text-[#00ff9d] transition-colors"
+            >
+              resume.pdf ↗
+            </a>
+            <a
               href="https://github.com/kayaant"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2.5 border border-[#1e1e1e] text-xs text-[#666] hover:border-[#00ff9d] hover:text-[#00ff9d] transition-colors"
             >
-              github.com/kayaant ↗
+              github ↗
             </a>
             <a
               href="https://linkedin.com/in/kayaan-tharani"
