@@ -3,7 +3,30 @@
     "allow": [
       "Bash(gh api *)",
       "WebFetch(domain:api.github.com)",
-      "Bash(npx create-next-app@latest *)"
+      "Bash(npx create-next-app@latest *)",
+      "Bash(npm run *)",
+      "WebFetch(domain:github.com)",
+      "Skill(frontend-design)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(gh auth *)",
+      "Bash(netlify status *)",
+      "Bash(git config *)",
+      "Bash(brew install *)",
+      "Bash(npm install *)",
+      "Bash(gh --version)",
+      "Bash(vercel --version)",
+      "Bash(gh repo *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(netlify sites:create *)",
+      "Bash(netlify api *)",
+      "Bash(netlify build *)",
+      "Bash(netlify deploy *)",
+      "Bash(curl -s \"https://kayaan.netlify.app\" -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -s \"https://kayaantharani.netlify.app\" -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl *)"
     ]
   }
 }

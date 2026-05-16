@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="min-h-screen max-w-5xl mx-auto px-6 pt-24 pb-16 flex items-center">
-      <div className="w-full grid md:grid-cols-[1fr_260px] gap-16 items-center">
+      <div className="w-full grid md:grid-cols-[1fr_260px] gap-10 md:gap-16 items-center">
 
         {/* ── Left: text ── */}
         <div className="flex flex-col">
@@ -77,9 +77,9 @@ export default function Hero() {
         </div>
 
         {/* ── Right: dossier card ── */}
-        <div className="hidden md:block fade-up d4 self-center">
+        <div className="block fade-up d4 self-center md:self-center w-full md:w-auto">
           {/* terminal window chrome */}
-          <div className="border border-[#1c1c1c] bg-[#0a0a0a]">
+          <div className="border border-[#1c1c1c] bg-[#0a0a0a] max-w-[280px] mx-auto md:max-w-none md:mx-0">
             {/* title bar */}
             <div className="flex items-center gap-2 px-3 py-2 border-b border-[#161616]">
               <span className="text-[9px] text-[#333] tracking-widest">cat profile.json</span>
