@@ -13,15 +13,14 @@ const projects = [
     github: "https://github.com/KayaanT/epoch",
   },
   {
-    id: "cactus",
-    name: "CACTUS",
-    badge: "OPEN SOURCE · CORE CONTRIBUTOR",
-    tagline: "AI inference engine for mobile & edge",
+    id: "vestige",
+    name: "VESTIGE",
+    badge: "PERSONAL PROJECT",
+    tagline: "LLM observability & CI testing platform",
     description:
-      "Contributed kernel-level optimizations and inference pipeline improvements to Cactus, an open-source AI inference engine targeting mobile devices.",
-    tags: ["C++", "Kernels", "Edge Inference", "Mobile", "Apple AMX"],
-    github: "https://github.com/cactus-compute/cactus",
-    external: "https://cactuscompute.com",
+      "Python SDK captures LLM-agent traces as OpenTelemetry spans, normalized into ClickHouse. A GitHub Action replays traces via pg-boss jobs and gates PRs on output diffs — deterministic CI for AI agents.",
+    tags: ["Python", "TypeScript", "OpenTelemetry", "ClickHouse", "GitHub Actions"],
+    github: "https://out-vestigeapp.vercel.app",
   },
   {
     id: "homelab",
@@ -103,14 +102,6 @@ function ProjectCard({ p, delay }: { p: typeof projects[0]; delay: number }) {
               </span>
             ))}
           </div>
-          {"external" in p && p.external && (
-            <span
-              onClick={(e) => { e.preventDefault(); window.open(p.external as string, "_blank"); }}
-              className="text-[10px] text-[#555] hover:text-[#00ff9d] transition-colors cursor-pointer"
-            >
-              {(p.external as string).replace("https://", "")} ↗
-            </span>
-          )}
         </div>
       </a>
     </div>

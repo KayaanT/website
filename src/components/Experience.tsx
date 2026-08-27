@@ -3,12 +3,12 @@ import { useInView } from "@/hooks/useInView";
 
 const jobs = [
   {
-    period: "Apr 2026 – Present",
-    company: "Vestige",
-    role: "Building",
+    period: "Ongoing",
+    company: "Cactus (YC W25)",
+    role: "Core Contributor",
     location: "",
-    description: "Building an LLM observability and CI testing platform with deterministic replay and OpenTelemetry-based tracing.",
-    tags: ["Python", "TypeScript", "OpenTelemetry", "PostgreSQL", "GitHub Actions"],
+    description: "Open-source on-device AI inference engine. Contributed kernel-level optimizations (ARM NEON, Apple AMX) and inference pipeline improvements for mobile and edge devices.",
+    tags: ["C++", "ARM NEON", "AMX", "On-Device AI"],
   },
   {
     period: "Jan – Apr 2026",
