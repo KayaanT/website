@@ -16,7 +16,7 @@ const links = [
   },
   {
     label: "resume.pdf",
-    href: "https://drive.google.com/file/d/1b5Sw7BOtYcvLwrUUAD-60tTUQLa0nMag/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1SV4l0HEOjxdGCgDpqAsMcFTJmBmJ_lD-/view?usp=sharing",
     prefix: "resume",
   },
 ];

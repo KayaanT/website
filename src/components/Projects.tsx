@@ -24,6 +24,16 @@ const projects = [
     external: "https://cactuscompute.com",
   },
   {
+    id: "homelab",
+    name: "HOMELAB",
+    badge: "AI INFRA · IN PROGRESS",
+    tagline: "Single-node private cloud for AI workloads",
+    description:
+      "Kubernetes (kubeadm, Cilium eBPF) and OpenStack on one 16GB box, deployed by GitOps. Rook-Ceph for storage, ArgoCD for reconciliation, Tailscale for zero-trust access — fitting CNI, distributed storage, observability, and model serving into a tight RAM budget.",
+    tags: ["Kubernetes", "Cilium", "Rook-Ceph", "ArgoCD", "GitOps", "OpenStack"],
+    github: "https://github.com/KayaanT/homelab",
+  },
+  {
     id: "loadbalancer",
     name: "LOAD BALANCER",
     badge: "PROJECT",
