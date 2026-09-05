@@ -3,6 +3,14 @@ import { useInView } from "@/hooks/useInView";
 
 const jobs = [
   {
+    period: "Aug 2026 – Present",
+    company: "Revyl (YC F24)",
+    role: "Software Engineer – RL Infrastructure (Contract)",
+    location: "San Francisco, CA",
+    description: "Built RL environments for coding agents, decomposing whole-app tasks into step tasks with dense per-block reward, graded live on cloud device simulators.",
+    tags: ["Python", "EC2", "vLLM", "Modal", "Nemotron"],
+  },
+  {
     period: "Ongoing",
     company: "Cactus (YC W25)",
     role: "Core Contributor",
@@ -21,7 +29,7 @@ const jobs = [
   {
     period: "May – Aug 2025",
     company: "Huawei Canada",
-    role: "SWE Intern · Data Center Network Research",
+    role: "Software Engineering Intern – Data Center Network Research",
     location: "Waterloo, ON",
     description: "Simulated and optimized AI cluster network traffic on leaf-spine topologies for data center network research.",
     tags: ["C++", "ns-3", "htsim", "RoCEv2", "RDMA", "DCQCN"],
@@ -29,7 +37,7 @@ const jobs = [
   {
     period: "Sep – Dec 2024",
     company: "IESO",
-    role: "Software Developer",
+    role: "Software Engineering Intern",
     location: "Mississauga, ON",
     description: "Built full-stack internal tooling to automate contract management workflows.",
     tags: ["REST", "Oracle SQL", "JDBC", "Agile"],
@@ -37,7 +45,7 @@ const jobs = [
   {
     period: "Jan – Apr 2024",
     company: "Toronto Transit Commission",
-    role: "Software Analyst",
+    role: "Software Engineering Intern",
     location: "Toronto, ON",
     description: "Scripted enterprise app deployments and Windows provisioning across a large endpoint fleet.",
     tags: ["PowerShell", "Bash", "PXE", "CAF/DSM"],

@@ -58,7 +58,7 @@ export default function Hero() {
               view_work.sh ↓
             </a>
             <a
-              href="https://drive.google.com/file/d/1SV4l0HEOjxdGCgDpqAsMcFTJmBmJ_lD-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1tlTPqgjmHqQgj9IfO9PeCOt7Qtg49zs4/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2.5 border border-[#1e1e1e] text-xs text-[#666] hover:border-[#00ff9d] hover:text-[#00ff9d] transition-colors"
